@@ -61,7 +61,7 @@ export default function Navbar({ dark = false }) {
             onClick={(e) => { if (pathname === "/") { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); } }}
             className="flex items-center gap-2 hover:opacity-90 transition-opacity cursor-pointer h-10"
           >
-            <Image src={dark ? "/logo/dark-logo.svg" : "/logo/light74-logo.svg"} alt="The Mind" width={140} height={32} className="h-8 w-auto" priority />
+            <Image src={dark ? "/logo/dark-logo.svg" : "/logo/light-logo.svg"} alt="The Mind" width={140} height={32} className="h-8 w-auto" priority />
           </a>
           <div className="flex items-center gap-6">
             <a
