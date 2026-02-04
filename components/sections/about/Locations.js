@@ -7,8 +7,8 @@ export default function Locations() {
       label: "Online",
       address: "Tech education & development",
       postal: "Across the Arab world",
-      phone: "",
-      email: "https://www.themind-platform.com/",
+      phone: "+964 782 529 8507",
+      email: "team@themind-platform.com",
       hours: "Available online",
       image: "https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
       mapUrl: "https://www.themind-platform.com/"
@@ -51,7 +51,7 @@ export default function Locations() {
                 <div className="absolute bottom-6 left-6 right-6">
                   <div className="flex items-center gap-3 mb-2">
                     <h3 className="text-3xl md:text-5xl font-black text-white">{location.city}</h3>
-                    <span className="bg-mind-blue text-black px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wide">
+                    <span className="bg-mind-green text-black px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wide">
                       {location.label}
                     </span>
                   </div>
